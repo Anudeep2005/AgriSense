@@ -93,15 +93,15 @@ The circuit diagram below illustrates the complete ESP32 sensor wiring used in t
 ---
 
 ### 4. Flutter App Setup
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-2.Navigate to the project directory
-3.Install Dependencies
-4.Replace API placeholders:
-  1.OpenWeatherMap API key
-  2.Gemini AI API key
-5.Run the application
+1. Clone the repository: <br/>
+   ```bash <br/>
+   git clone <repository-url> <br/>
+2.Navigate to the project directory <br/>
+3.Install Dependencies <br/>
+4.Replace API placeholders: <br/>
+  1.OpenWeatherMap API key <br/>
+  2.Gemini AI API key <br/>
+5.Run the application <br/>
 
 
 
