@@ -99,8 +99,8 @@ The circuit diagram below illustrates the complete ESP32 sensor wiring used in t
 2.Navigate to the project directory <br/>
 3.Install Dependencies <br/>
 4.Replace API placeholders: <br/>
-  -OpenWeatherMap API key <br/>
-  -Gemini AI API key <br/>
+   - OpenWeatherMap API Key
+   - Gemini AI API Key
 5.Run the application <br/>
 
 
