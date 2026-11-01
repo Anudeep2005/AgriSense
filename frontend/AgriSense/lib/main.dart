@@ -8,12 +8,10 @@ import 'landing_page.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  if(kIsWeb)
-  {
-    runApp(DevicePreview(builder: (context) => MyApp()));
-  }
-  else{
-    runApp(MyApp());
+  if (kIsWeb) {
+    runApp(DevicePreview(builder: (context) => const MyApp()));
+  } else {
+    runApp(const MyApp());
   }
 }
 
@@ -22,7 +20,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: OnboardingScreen(),
     );
